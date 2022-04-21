@@ -1,0 +1,55 @@
+Here is the list of metrics used in deep learning.
+1. True Positive Rate (TPR) - classification.
+2. True Negative Rate (TNR) - classification
+3. False Positive Rate (FPR) - classification
+4. False Negative Rate (FNR) - classification
+5. Accuracy - classification
+6. Precision - classification
+7. Recall - classification
+8. F1 Score - classification
+9. AUC ROC CURVE - classification
+10. Confusion Matrix - classification
+
+Here we'll define these one by one in detail.
+
+1. True Positive:
+    Model correctly predicts the Positive class.
+
+2. True Negative:
+    Model correctly predicts the Negative class.
+
+3. False Positive:
+    Model incorrectly predicts the Positive class.
+
+4. False Negative:
+    Model incorrectly predicts the Negative class.
+
+5. Accuracy:
+    Accuracy is used to measure the performance of a classification Model.
+    Accuracy = Number of correct predictions / Total number of predictions.
+    Accuracy = (TP + TN) / (TP + TN + FP + FN).
+    Accuracy alone doesn't tell the full story when you're working with a 
+    class-imbalanced data set, like this one, where there is a significant 
+    disparity between the number of positive and negative labels.
+
+6. Precision:
+    Precision is used to measure the performance of a classification Model.
+    What proportion of positive identifications was actually correct?
+    Precision = Number of correct positive predictions / Number of positive predictions.
+    Precision = TP / (TP + FP).
+    
+7. Recall:
+    Recall is used to measure the performance of a classification Model.
+    What proportion of actual positives was identified correctly?
+    Samples was actually positive and how many were identified correctly?
+    Recall = TP / (TP + FN)
+
+    To fully evaluate the effectiveness of a model, you must examine both precision and recall.
+
+8. ROC Curve and AUC:
+    Receiver Operating Characteristic (ROC) curve is a graphical plot that illustrates the
+    performance of a binary classifier system as its discrimination threshold is varied. this
+    curve plots two parameters, True positive rate and False positive rate.
+
+    True Positive Rate (TPR) = TP / (TP + FN)
+    False Positive Rate (FPR) = FP / (FP + TN)
