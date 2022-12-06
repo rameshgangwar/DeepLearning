@@ -1,5 +1,15 @@
 # Deep Learning
 
+## To Do
+
+    1. Fix environment consistency problem of 'tf' environment.
+    2. How to use gitignore.
+    3. How to use Kaggle from local machine.
+
+## Tips
+
+    1. While trying different algorithms from sklearn, also try neural network and pretrained networks too.
+
 ## References - Books
 
 1. Hands on machine learning with Scikit-learn, Keras, and TensorFlow: **Aurelien Geron**
