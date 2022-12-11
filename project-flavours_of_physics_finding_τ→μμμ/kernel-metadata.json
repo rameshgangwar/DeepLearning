@@ -1,13 +1,13 @@
 {
-  "id": "rameshgangwar/INSERT_KERNEL_SLUG_HERE",
-  "title": "INSERT_TITLE_HERE",
-  "code_file": "INSERT_CODE_FILE_PATH_HERE",
-  "language": "Pick one of: {python,r,rmarkdown}",
-  "kernel_type": "Pick one of: {script,notebook}",
-  "is_private": "true",
+  "id": "rameshgangwar/flavours-of-physics",
+  "title": "Flavours of Physics",
+  "code_file": "notebook-flavours-of-physics.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
   "enable_gpu": "false",
   "enable_internet": "true",
   "dataset_sources": [],
-  "competition_sources": [],
+  "competition_sources": ["competitions/flavours-of-physics"],
   "kernel_sources": []
 }
