@@ -1,2 +1,3 @@
-# ignore ALL files in ANY directory named ds
+# ignore ALL files in ANY directory named datasets
+datasets/
 ds/
